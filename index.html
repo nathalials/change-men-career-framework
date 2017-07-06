@@ -7,17 +7,11 @@
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
   ga('create', 'UA-102041034-1', 'auto');
   ga('send', 'pageview');
-  
-  function getEventTarget(e) {
-    e = e || window.event;
-    return e.target || e.srcElement; 
-}
+
 var ul = document.getElementById('suggestionButton');
 ul.onclick = function(event) {
-    var target = getEventTarget(event);
-    ga('send', 'suggestionClicked');
+    ga('send', 'event', 'suggestionClicked');
 };
-
 </script>
   <head>
     <meta charset="utf-8">
