@@ -205,6 +205,9 @@ h5 {
     color: rgba(0, 0, 0, .4);
 }
 
-.pmanager{
-
+#suggestionButton {
+    background: transparent;
+    border: none;
+    padding-top: 15px;
+    color: black;
 }
