@@ -216,6 +216,14 @@ h5 {
     font-size: 40px;
 }
 
+#mainNav{
+    background-color: navbar navbar-default navbar-fixed-top navbar-custom;
+}
+
+.navbar navbar-default navbar-fixed-top navbar-custom{
+     background-color: navbar navbar-default navbar-fixed-top navbar-custom;
+}
+
 #myBtn {
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
