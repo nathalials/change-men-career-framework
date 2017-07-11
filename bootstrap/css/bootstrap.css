@@ -1062,6 +1062,9 @@ th {
 .glyphicon-menu-down:before {
   content: "\e259";
 }
+.glyphicon.glyphicon-menu-down {
+    font-size: 75px;
+}
 .glyphicon-menu-up:before {
   content: "\e260";
 }
